@@ -12,6 +12,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmoshe/timescript"
+  },
   "devDependencies": {
     "@types/node": "^20.11.29",
     "@vitest/coverage-v8": "^1.4.0",
