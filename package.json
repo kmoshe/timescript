@@ -3,11 +3,13 @@
   "version": "1.0.1",
   "main": "./dist/index.js",
   "type": "module",
+  "types": "./typings",
   "scripts": {
     "test": "vitest",
     "dev": "tsx watch ./src/index.ts",
     "build": "rimraf dist && tsc",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "emit-d": "tsc --declaration --emitDeclarationOnly --declarationDir typings"
   },
   "keywords": [],
   "author": "",
